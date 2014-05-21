@@ -1,4 +1,4 @@
-<?
+<?php
 
 /**
  * Add 1 widget to 2 widgets in parent theme
@@ -48,7 +48,7 @@ function stop_submit_by_enter(){
         });
     });
     //]]>--></script>
-<?    
+<?php    
     /*
      *  Scroll page to title in mobile screen 
      */
@@ -63,7 +63,7 @@ function stop_submit_by_enter(){
             scrollToAnchor('header');
     });
     //]]>--></script>
-<?    
+<?php    
 }
 
 /*
