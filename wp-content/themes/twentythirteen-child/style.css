@@ -1077,7 +1077,9 @@ ul.nav-menu li:hover > ul,
 	max-width: 1040px;
 	padding: 0 430px 0 0;
 }
-
+.fixWidth{
+    margin-right: -430px;
+}
 
 /**
  * 5.1 Entry Header
@@ -2976,6 +2978,10 @@ footer.entry-meta {
     #menu-item-49{ background: url(p/right-yellow-box.jpg) no-repeat top center #c3a722; }
     #menu-item-48{ background: url(p/right-orange-box.jpg) no-repeat top center #d47e19; }
     #menu-item-47{ background: url(p/right-red-box.jpg) no-repeat top center #c32227; }
+
+    .fixWidth{
+        margin-right: 0;
+    }
 }
 
 /* Collapse oversized image and pulled images after iPad breakpoint. */
