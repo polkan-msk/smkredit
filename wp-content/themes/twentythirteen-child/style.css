@@ -2519,7 +2519,14 @@ footer.entry-meta {
     padding-left:20px;
 }
 .fscf-div-clear{
-    padding: 15px 0 0 15px;
+        padding: 15px 0 0 15px;
+}
+#fscf_captcha_image_div1,
+#fscf_captcha_field1{
+    padding-left: 15px;
+}
+#fscf_captcha_code1{
+    margin-left: 15px;
 }
 .fscf-fieldset input, .fscf-fieldset textarea, .fscf-fieldset select{
     border: 1px solid #a0a07a;
