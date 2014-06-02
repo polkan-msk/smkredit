@@ -3251,6 +3251,11 @@ footer.entry-meta {
     #topPhoneBlock .name{
         display:none;
     }
+    .site-header .home-link {
+    	height: 130px;
+    	padding: 0;
+    	width: 100%;
+    }
 }
 /* Mobile devices */
 @media (max-width: 359px) {
